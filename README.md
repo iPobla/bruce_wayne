@@ -14,11 +14,13 @@ en una hoja de vida de carácter institucional, atractiva y organizada, utilizan
 ## Recomendaciones
 Toma en cuenta estas sugerencias para lograr un buen resultado:
 
-- Siéntete libre de modificar `index.html` de la manera que quieras, aumentando o quitando palabras, párrafos o etiquetas.
+- Siéntete libre de modificar `index.html` de la manera que quieras, aumentando o quitando palabras, párrafos o etiquetas 🛠.
 
-- Recuerda que el laboratorio final de este módulo será entregar tu propia hoja de vida con estilos, asi que esta es una buena ocasión para que pruebes diferentes ideas. 
+- Recuerda que el laboratorio final de este módulo será entregar tu propia hoja de vida con estilos, asi que esta es una buena ocasión para que pruebes diferentes ideas 😎. 
 
-- No olvides usar "Grid" y "Flexbox" donde sea necesario.
+- No existe una única solución correcta, ya que hay muchas formas de lograrlo, encuentra tu propia manera de hacerlo 💪🏼!
+
+- No olvides usar "Grid" y "Flexbox" donde sea necesario🤓.
 
 ## Instrucciones
 
@@ -33,9 +35,9 @@ git remove rm origin
 
 ![Image](images/open.png)
 
-Si no tienes esta opción habilitada debes instalar la extensión `Live Share` de VSC (Visual Studio Code).
+Si no tienes esta opción habilitada debes instalar la extensión `Live Server` de VSC (Visual Studio Code).
 
-![Image](images/live-share.png)
+![Image](images/live-server.png)
 
 
 Si tienes alguna dificultad para configurar adecuadamente tu VSC puedes volver a revisar la sesión en vivo del módulo de VSC o solicitar asistencia en el canal de Slack.
