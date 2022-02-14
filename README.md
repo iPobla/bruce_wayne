@@ -1,4 +1,4 @@
-Este es un `laboratorio práctico` del modulo de CSS del curso `JavaScript Front End` de ADA SCHOOL.
+Este es un `laboratorio práctico` del modulo de CSS de ADA SCHOOL.
 
 ## Lo que debes lograr
 
