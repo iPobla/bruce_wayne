@@ -1,31 +1,72 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Curriculum Vitae de Bruce Wayne</title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/batman.png">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Bruce Wayne</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+        <a><img src="images/batman_logo.png" class="logo-nav"></a>
+    </div>
+    <nav class="barra-navegacion">
+        <ul class="nav-links">
+            <li><a href="#presentacion">Datos</a></li>
+            <li><a href="#formacion_academica">Formación</a></li>
+            <li><a href="#experiencia_laboral">Experiencia</a></li>
+        </ul>
+    </nav>
+</header>
+
+  <div class="presentacion" id="presentacion">
     <h1>Curriculum Vitae de Bruce Wayne</h1>
-    <img src="images/Bruce_Wayne.jpg" />
+    <img src="images/Bruce_Wayne.jpg" class="foto_cv" id="foto_cv" width="300px" height="300px"/>
+  </div>
+
+  <div class="datos_personales" id="datos_personales">
     <h2>Datos personales</h2>
     <ul>
-      <li>Nombre completo: <strong>Bruce Wayne</strong></li>
-      <li>Fecha de nacimiento: <strong>1/5/1939</strong></li>
-      <li>Lugar de nacimiento: <strong>Gotham City</strong></li>
+      <li class="nombre">Nombre: <strong>Bruce Wayne</strong></li>
+      <li class="fecha">Fecha de nacimiento: <strong>1/5/1939</strong></li>
+      <li class="nacimiento">Lugar de nacimiento: <strong>Gotham City</strong></li>
     </ul>
+  </div>
 
+  <div class="formacion_academica" id="formacion_academica">
     <h2>Formación académica</h2>
     <ul>
       <li>1956-1961: <strong>Universidad del Espantapájaros</strong></li>
       <li>1952-1956: <strong>Instituto de Dos Caras</strong></li>
       <li>1944-1952: <strong>Escuela Primaria del Joker</strong></li>
     </ul>
+  </div>
 
-    <h2>Experiencia laboral</h2>
+  <div class="experiencia_laboral" id="experiencia_laboral">
+  <h2>Experiencia laboral</h2>
     <ul>
       <li>1975-1985: <strong>En el paro</strong></li>
       <li>1965-1975: <strong>Cazavillanos y demás chusma</strong></li>
       <li>1962-1965: <strong>Aprendiz de superhéroe</strong></li>
     </ul>
-  </body>
+  </div>
+
+  <footer class="pie_pagina" id="pie_pagina">
+    <p class="footer-titulo" id="footer-titulo">CV Bruce Wayne</p>
+    <div class="footer-social" id="footer-social">
+        <a href="https://www.facebook.com/WarnerChannel" class="footer-icono"><i class='bx bxl-facebook' ></i></a>
+        <a href="https://www.instagram.com/wbpictures/" class="footer-icono"><i class='bx bxl-instagram' ></i></a>
+        <a href="https://twitter.com/wbpictures" class="footer-icono"><i class='bx bxl-twitter' ></i></a>
+        <a href="https://wa.me/56929183628?text=Hola!%20Necesito%20informaci%C3%B3n%20sobre%20tu%20servicio%20de%20super%20heroe!" class="footer-icono"><i class='bx bxl-whatsapp' ></i></a>
+    </div>
+    <p>© 2022 Todos los derechos reservados</p>
+</footer>
+
+</body>
 </html>
